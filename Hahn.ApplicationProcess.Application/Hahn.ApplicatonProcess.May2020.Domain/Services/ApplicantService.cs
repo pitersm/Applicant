@@ -22,7 +22,7 @@ namespace Hahn.ApplicatonProcess.May2020.Domain
                 Name = applicant.Name,
                 FamilyName = applicant.FamilyName,
                 Age = applicant.Age,
-                EMailAdress = applicant.EMailAdress,
+                EMailAddress = applicant.EMailAddress,
                 CountryOfOrigin = applicant.CountryOfOrigin,
                 Address = applicant.Address,
                 Hired = applicant.Hired
@@ -44,7 +44,7 @@ namespace Hahn.ApplicatonProcess.May2020.Domain
                 Name = applicant.Name,
                 FamilyName = applicant.FamilyName,
                 Age = applicant.Age,
-                EMailAdress = applicant.EMailAdress,
+                EMailAddress = applicant.EMailAddress,
                 CountryOfOrigin = applicant.CountryOfOrigin,
                 Address = applicant.Address,
                 Hired = applicant.Hired
@@ -57,7 +57,7 @@ namespace Hahn.ApplicatonProcess.May2020.Domain
             applicantDomain.Name = applicantDto.Name;
             applicantDomain.FamilyName = applicantDto.Name;
             applicantDomain.Hired = applicantDto.Hired;
-            applicantDomain.EMailAdress = applicantDto.EMailAdress;
+            applicantDomain.EMailAddress = applicantDto.EMailAddress;
             applicantDomain.Address = applicantDto.Address;
             applicantDomain.Age = applicantDto.Age;
             applicantDomain.CountryOfOrigin = applicantDto.CountryOfOrigin;

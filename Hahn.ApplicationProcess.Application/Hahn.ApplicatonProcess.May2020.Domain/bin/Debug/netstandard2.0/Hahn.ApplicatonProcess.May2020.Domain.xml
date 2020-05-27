@@ -25,7 +25,7 @@
         <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto.CountryOfOrigin">
             <example>Brazil</example>
         </member>
-        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto.EMailAdress">
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto.EMailAddress">
             <example>pitersm@hotmail.com</example>
         </member>
         <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto.Age">

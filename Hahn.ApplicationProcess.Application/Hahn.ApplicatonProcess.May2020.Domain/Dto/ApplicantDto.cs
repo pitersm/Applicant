@@ -23,7 +23,7 @@ namespace Hahn.ApplicatonProcess.May2020.Domain.Dto
         /// <example>Brazil</example>
         public string CountryOfOrigin { get; set; }
         /// <example>pitersm@hotmail.com</example>
-        public string EMailAdress { get;  set; }
+        public string EMailAddress { get;  set; }
         /// <example>26</example>
         public int Age { get; set; }
         /// <example>true</example>

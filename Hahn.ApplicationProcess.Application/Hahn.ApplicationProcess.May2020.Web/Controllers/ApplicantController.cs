@@ -65,7 +65,7 @@ namespace Hahn.ApplicationProcess.Application.Controllers
             try
             {
                 await _applicantService.UpdateApplicant(applicant);
-                return Ok();
+                return NoContent();
             }
             catch (FluentValidation.ValidationException ex)
             {

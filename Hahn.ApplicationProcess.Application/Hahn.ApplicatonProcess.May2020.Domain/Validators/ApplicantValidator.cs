@@ -16,7 +16,7 @@ namespace Hahn.ApplicationProcess.May2020.Data.Validators
             RuleFor(a => a.Name).MinimumLength(5).WithMessage("The name must contain more than 5 characters.");
             RuleFor(a => a.FamilyName).MinimumLength(5).WithMessage("The family name must contain more than 5 characters.");
             RuleFor(a => a.Address).MinimumLength(10).WithMessage("The address must contain more than 5 characters.");
-            RuleFor(a => a.EMailAdress).EmailAddress().WithMessage("The e-mail address is invalid. Please inform a valid e-mail address");
+            RuleFor(a => a.EMailAddress).EmailAddress().WithMessage("The e-mail address is invalid. Please inform a valid e-mail address");
             RuleFor(a => a.Age).GreaterThanOrEqualTo(20).LessThanOrEqualTo(60).WithMessage("The applicant's age must be between 20 and 60 years old.");
             RuleFor(a => a.CountryOfOrigin).MustAsync(async (country, cancellation) =>
             {
