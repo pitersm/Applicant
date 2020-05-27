@@ -6,3 +6,11 @@ C:\Users\Piter Machado\source\repos\Hahn.ApplicationProcess.Application\Hahn.App
 C:\Users\Piter Machado\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.May2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.dll
 C:\Users\Piter Machado\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.May2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.pdb
 C:\Users\Piter Machado\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.May2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.csprojAssemblyReference.cache
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.May2020.Data\bin\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.deps.json
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.May2020.Data\bin\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.dll
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.May2020.Data\bin\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.pdb
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.May2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.csprojAssemblyReference.cache
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.May2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.AssemblyInfoInputs.cache
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.May2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.AssemblyInfo.cs
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.May2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.dll
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.May2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.pdb

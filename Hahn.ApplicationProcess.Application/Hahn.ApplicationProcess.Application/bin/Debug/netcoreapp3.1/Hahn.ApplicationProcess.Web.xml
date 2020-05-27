@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Hahn.ApplicationProcess.Web</name>
+        <name>Hahn.ApplicationProcess.May2020.Web</name>
     </assembly>
     <members>
         <member name="M:Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Get(System.Int32)">

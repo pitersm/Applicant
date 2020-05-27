@@ -10,3 +10,15 @@ C:\Users\Piter Machado\source\repos\Hahn.ApplicationProcess.Application\Hahn.App
 C:\Users\Piter Machado\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.dll
 C:\Users\Piter Machado\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.pdb
 C:\Users\Piter Machado\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\bin\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.xml
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\bin\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.deps.json
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\bin\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.dll
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\bin\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.pdb
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\bin\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.xml
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\bin\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.dll
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\bin\Debug\netstandard2.0\Hahn.ApplicationProcess.May2020.Data.pdb
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.csprojAssemblyReference.cache
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.AssemblyInfoInputs.cache
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.AssemblyInfo.cs
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.csproj.CopyComplete
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.dll
+C:\Users\Piter Machado\source\repos\Applicant\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.May2020.Domain\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.May2020.Domain.pdb

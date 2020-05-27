@@ -6832,9 +6832,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Piter Machado\\source\\repos\\Applicant\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.Web.csproj",
-      "projectName": "Hahn.ApplicationProcess.Web",
-      "projectPath": "C:\\Users\\Piter Machado\\source\\repos\\Applicant\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Piter Machado\\source\\repos\\Applicant\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.May2020.Web.csproj",
+      "projectName": "Hahn.ApplicationProcess.May2020.Web",
+      "projectPath": "C:\\Users\\Piter Machado\\source\\repos\\Applicant\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.May2020.Web.csproj",
       "packagesPath": "C:\\Users\\Piter Machado\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Piter Machado\\source\\repos\\Applicant\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.Application\\obj\\",
       "projectStyle": "PackageReference",
