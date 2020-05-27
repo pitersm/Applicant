@@ -1,0 +1,9 @@
+2020-05-26 23:48:11.127 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-26 23:48:11.156 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/swagger/index.html  
+2020-05-26 23:48:11.189 -03:00 [INF] Hosting environment: Development
+2020-05-26 23:48:11.189 -03:00 [INF] Content root path: C:\Users\Piter Machado\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.Application
+2020-05-26 23:48:11.317 -03:00 [INF] HTTP GET /swagger/index.html responded 200 in 124.1477 ms
+2020-05-26 23:48:11.321 -03:00 [INF] Request finished in 171.3809ms 200 text/html;charset=utf-8
+2020-05-26 23:48:11.471 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/swagger/v1/swagger.json  
+2020-05-26 23:48:11.587 -03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 115.4025 ms
+2020-05-26 23:48:11.587 -03:00 [INF] Request finished in 115.8715ms 200 application/json;charset=utf-8

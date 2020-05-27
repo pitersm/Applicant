@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hahn.ApplicationProcess.Web</name>
+    </assembly>
+    <members>
+        <member name="M:Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Get(System.Int32)">
+            <summary>
+            Gets a specific applicant by unique id
+            </summary>
+            <param name="id" example="1">The applicant id</param>
+        </member>
+        <member name="M:Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Post(Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto)">
+            <summary>
+            Inserts a new applicant in the database
+            </summary>
+        </member>
+        <member name="M:Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Put(Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto)">
+            <summary>
+            Updates an applicant record in the database
+            </summary>
+        </member>
+        <member name="M:Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Delete(System.Int32)">
+            <summary>
+            Deletes an applicant record in the database
+            </summary>
+            <param name="id" example="1">The applicant id</param>
+        </member>
+    </members>
+</doc>
