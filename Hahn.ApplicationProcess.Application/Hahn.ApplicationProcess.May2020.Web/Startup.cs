@@ -44,7 +44,7 @@ namespace Hahn.ApplicationProcess.Application
                     PlatformServices.Default.Application.ApplicationBasePath;
                 string appName =
                     PlatformServices.Default.Application.ApplicationName;
-                var filePath = Path.Combine(AppContext.BaseDirectory, "Hahn.ApplicationProcess.Web.xml");
+                var filePath = Path.Combine(AppContext.BaseDirectory, "Hahn.ApplicationProcess.May2020.Web.xml");
 
                 Assembly.GetExecutingAssembly().GetReferencedAssemblies();
 

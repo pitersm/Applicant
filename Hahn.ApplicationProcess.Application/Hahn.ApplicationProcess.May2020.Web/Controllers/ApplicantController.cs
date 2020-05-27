@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 using Hahn.ApplicationProcess.May2020.Data;
 using Hahn.ApplicatonProcess.May2020.Domain.Contracts;
@@ -27,7 +28,14 @@ namespace Hahn.ApplicationProcess.Application.Controllers
         {
             var value = await _applicantService.GetApplicant(id);
 
-            return Ok(value);
+            if (value != null)
+            {
+                return Ok(value);
+            }
+            else
+            {
+                return NotFound("There is no applicant that matches the Id you informed. Please try again with another Id parameter.");
+            }
         }
 
         // POST api/<controller>
@@ -46,10 +54,6 @@ namespace Hahn.ApplicationProcess.Application.Controllers
             {
                 return BadRequest(ex.Message);
             }
-            //catch
-            //{
-            //    return new HttpResponseException("There has been a problem with your request. Please try again.");
-            //}
         }
 
         /// <summary>
@@ -67,10 +71,6 @@ namespace Hahn.ApplicationProcess.Application.Controllers
             {
                 return BadRequest(ex.Message);
             }
-            //catch
-            //{
-            //    return new HttpResponseException("There has been a problem with your request. Please try again.");
-            //}
         }
 
         /// <summary>
@@ -80,12 +80,15 @@ namespace Hahn.ApplicationProcess.Application.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
+            try
+            {
                 await _applicantService.DeleteApplicant(id);
                 return Ok();
-            //catch 
-            //{
-            //    return new HttpResponseException("There has been a problem with your request. Please try again.");
-            //}
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

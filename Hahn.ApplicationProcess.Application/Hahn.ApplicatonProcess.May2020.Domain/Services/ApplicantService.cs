@@ -39,7 +39,7 @@ namespace Hahn.ApplicatonProcess.May2020.Domain
         public async Task<ApplicantDto> GetApplicant(int id)
         {
             var applicant = await _repository.GetApplicant(id);
-            return new ApplicantDto()
+            return applicant != null ? new ApplicantDto()
             {
                 Name = applicant.Name,
                 FamilyName = applicant.FamilyName,
@@ -48,7 +48,7 @@ namespace Hahn.ApplicatonProcess.May2020.Domain
                 CountryOfOrigin = applicant.CountryOfOrigin,
                 Address = applicant.Address,
                 Hired = applicant.Hired
-            };
+            } : null;
         }
 
         public async Task UpdateApplicant(ApplicantDto applicantDto)

@@ -31,13 +31,24 @@ namespace Hahn.ApplicationProcess.Web.Middleware
 
         private Task HandleExceptionAsync(HttpContext context, Exception ex)
         {
-            var code = HttpStatusCode.InternalServerError;
+            string result;
+            var code = context.Response.StatusCode;
 
-            _logger.LogError(ex, "An exception has been triggered.");
+            if (ex is InvalidOperationException)
+            {
+                result = JsonConvert.SerializeObject(new { error = ex.Message });
+            } 
+            else
+            {
+                _logger.LogError(ex, "An unexpected exception has been triggered.");
 
-            var result = JsonConvert.SerializeObject(new { error = "We're sorry, an unexpected error happened in the server. Please try again shortly." });
+                code = (int)HttpStatusCode.InternalServerError;
+                result = JsonConvert.SerializeObject(new { error = "We're sorry, an unexpected error happened in the server. Please try again shortly." });
+            }
+
             context.Response.ContentType = "application/json";
-            context.Response.StatusCode = (int)code;
+            context.Response.StatusCode = code;
+
             return context.Response.WriteAsync(result);
         }
     }

@@ -37,8 +37,12 @@ namespace Hahn.ApplicationProcess.May2020.Data.Repository
         public async Task DeleteApplicant(int id)
         {
             var applicantToDelete = _context.Applicants.Find(id);
-            _context.Remove(applicantToDelete);
-             await _context.SaveChangesAsync();
+            if (applicantToDelete == null)
+            {
+                throw new InvalidOperationException("There is no applicant that matches the Id you informed. Please try again with another Id parameter.");
+            }
+           _context.Remove(applicantToDelete);
+            await _context.SaveChangesAsync();
         }
 
         public async Task UpdateApplicant(Applicant applicant)
