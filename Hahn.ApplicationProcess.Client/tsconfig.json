@@ -25,6 +25,9 @@
     "./test/**/*.ts",
     "./types/**/*.d.ts"
   ],
+  "filesGlob": [
+    "./typings/browser.d.ts"
+  ],
   "atom": {
     "rewriteTsconfig": false
   }

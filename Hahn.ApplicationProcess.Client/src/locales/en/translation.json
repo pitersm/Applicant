@@ -1,0 +1,24 @@
+{
+    "applicantTest": "Applicant Test",
+    "welcome": "Welcome",
+    "amountOfApplicants": "Amount of registered applicants in the database",
+    "viewList": "View List",
+    "clickApplicant": "Click an applicant on the list to see the related data",
+    "noApplicantsOnDatabase": "There are currently no applicants on the database",
+    "addApplicant": "Add an applicant",
+    "listOfApplicants": "List of Applicants",   
+    "editApplicant": "Edit Applicant",
+    "newApplicant": "New Applicant",
+    "name": "Name",
+    "familyName": "Family Name",
+    "age": "Age",
+    "address": "Address",
+    "countryOfOrigin": "Country of Origin",
+    "emailAddress": "E-mail Address",
+    "hired": "Hired",
+    "save": "Save",
+    "reset": "Reset",
+    "delete": "Delete",
+    "cancel": "Cancel"
+
+}

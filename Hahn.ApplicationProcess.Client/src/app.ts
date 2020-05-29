@@ -1,13 +1,20 @@
-import { autoinject } from 'aurelia-framework';
+import { inject } from 'aurelia-framework';
 import { ApplicantService } from 'resources/services/applicant-service';
 import { PLATFORM } from 'aurelia-pal';
 import { RouterConfiguration, Router } from 'aurelia-router';
+import { I18N } from 'aurelia-i18n';
 
-@autoinject
+@inject(ApplicantService, I18N)
 export class App {
   router: Router;
+  i18n;
+  // static inject = [I18N];
 
-  constructor(public service: ApplicantService) {}
+  constructor(public service: ApplicantService, I18N) {
+    this.i18n = I18N;
+      this.i18n
+      .setLocale('de').then(() => {});
+  }
 
   configureRouter(config: RouterConfiguration, router: Router) {
     this.router = router;

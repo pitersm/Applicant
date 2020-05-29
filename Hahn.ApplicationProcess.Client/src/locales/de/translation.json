@@ -1,0 +1,23 @@
+{
+    "applicantTest": "Bewerber-Test",
+    "welcome": "Willkommen",
+    "amountOfApplicants": "Anzahl der in der Datenbank registrierten Antragsteller",
+    "viewList": "View List",
+    "clickApplicant": "Klicken Sie auf einen Bewerber in der Liste, um die zugehörigen Daten anzuzeigen",
+    "noApplicantsOnDatabase": "Derzeit befinden sich keine Bewerber in der Datenbank",
+    "addApplicant": "Bewerber hinzufügen",
+    "listOfApplicants": "Liste der Bewerber",
+    "editApplicant": "Bewerber Bearbeiten",
+    "newApplicant": "Neuer Antragsteller",
+    "name": "Name",
+    "familyName": "Familienname",
+    "age": "Alter",
+    "address": "Addresse",
+    "countryOfOrigin": "Herkunftsland",
+    "emailAddress": "E-mail-Addresse",
+    "hired": "Eingestellt",
+    "save": "Speichern",
+    "reset": "Reset",
+    "delete": "Löschen",
+    "cancel": "Abbrechen"
+}

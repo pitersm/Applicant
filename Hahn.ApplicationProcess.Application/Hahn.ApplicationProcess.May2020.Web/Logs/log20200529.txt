@@ -1177,3 +1177,363 @@
 2020-05-29 01:37:21.779 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
 2020-05-29 01:37:21.780 -03:00 [INF] HTTP GET /Applicant responded 200 in 7.1233 ms
 2020-05-29 01:37:21.780 -03:00 [INF] Request finished in 7.5301ms 200 application/json; charset=utf-8
+2020-05-29 02:29:36.234 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:29:36.234 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:29:36.234 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:29:36.235 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:29:36.262 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:29:36.265 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:29:36.266 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 31.2345ms
+2020-05-29 02:29:36.266 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:29:36.266 -03:00 [INF] HTTP GET /Applicant responded 200 in 32.5588 ms
+2020-05-29 02:29:36.266 -03:00 [INF] Request finished in 33.3502ms 200 application/json; charset=utf-8
+2020-05-29 02:30:56.194 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:30:56.194 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:30:56.194 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:30:56.197 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:30:56.198 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:30:56.199 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:30:56.199 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 1.7019ms
+2020-05-29 02:30:56.199 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:30:56.199 -03:00 [INF] HTTP GET /Applicant responded 200 in 4.7735 ms
+2020-05-29 02:30:56.199 -03:00 [INF] Request finished in 4.9447ms 200 application/json; charset=utf-8
+2020-05-29 02:30:59.262 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:30:59.262 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:30:59.262 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:30:59.262 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:30:59.262 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:30:59.262 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:30:59.263 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 0.8432ms
+2020-05-29 02:30:59.263 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:30:59.263 -03:00 [INF] HTTP GET /Applicant responded 200 in 1.1119 ms
+2020-05-29 02:30:59.263 -03:00 [INF] Request finished in 1.3732ms 200 application/json; charset=utf-8
+2020-05-29 02:31:39.205 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:31:39.205 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:31:39.205 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:31:39.205 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:31:39.206 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:31:39.206 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:31:39.207 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 1.3506ms
+2020-05-29 02:31:39.207 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:31:39.207 -03:00 [INF] HTTP GET /Applicant responded 200 in 1.7077 ms
+2020-05-29 02:31:39.207 -03:00 [INF] Request finished in 1.8591ms 200 application/json; charset=utf-8
+2020-05-29 02:31:43.234 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:31:43.235 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:31:43.235 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:31:43.235 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:31:43.235 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:31:43.236 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:31:43.236 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 1.2285ms
+2020-05-29 02:31:43.236 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:31:43.236 -03:00 [INF] HTTP GET /Applicant responded 200 in 1.6184 ms
+2020-05-29 02:31:43.237 -03:00 [INF] Request finished in 3.1923ms 200 application/json; charset=utf-8
+2020-05-29 02:31:53.494 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:31:53.494 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:31:53.494 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:31:53.494 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:31:53.494 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:31:53.495 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:31:53.495 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 0.9462ms
+2020-05-29 02:31:53.495 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:31:53.495 -03:00 [INF] HTTP GET /Applicant responded 200 in 1.1705 ms
+2020-05-29 02:31:53.495 -03:00 [INF] Request finished in 1.3902ms 200 application/json; charset=utf-8
+2020-05-29 02:31:56.816 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:31:56.816 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:31:56.816 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:31:56.816 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:31:56.817 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:31:56.817 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:31:56.817 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 1.315ms
+2020-05-29 02:31:56.817 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:31:56.817 -03:00 [INF] HTTP GET /Applicant responded 200 in 1.5953 ms
+2020-05-29 02:31:56.817 -03:00 [INF] Request finished in 1.8004ms 200 application/json; charset=utf-8
+2020-05-29 02:31:59.701 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:31:59.701 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:31:59.701 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:31:59.701 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:31:59.701 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:31:59.702 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:31:59.702 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 0.7466ms
+2020-05-29 02:31:59.702 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:31:59.702 -03:00 [INF] HTTP GET /Applicant responded 200 in 0.9752 ms
+2020-05-29 02:31:59.702 -03:00 [INF] Request finished in 1.2592ms 200 application/json; charset=utf-8
+2020-05-29 02:33:10.344 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:33:10.344 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:33:10.344 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:33:10.345 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:33:10.372 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:33:10.374 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:33:10.396 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 51.0197ms
+2020-05-29 02:33:10.397 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:33:10.397 -03:00 [INF] HTTP GET /Applicant responded 200 in 53.0692 ms
+2020-05-29 02:33:10.397 -03:00 [INF] Request finished in 53.2617ms 200 application/json; charset=utf-8
+2020-05-29 02:33:24.403 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:33:24.404 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:33:24.404 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:33:24.404 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:33:24.404 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:33:24.405 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:33:24.405 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 1.0117ms
+2020-05-29 02:33:24.405 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:33:24.405 -03:00 [INF] HTTP GET /Applicant responded 200 in 1.3357 ms
+2020-05-29 02:33:24.405 -03:00 [INF] Request finished in 1.5678ms 200 application/json; charset=utf-8
+2020-05-29 02:33:35.182 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:33:35.182 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:33:35.182 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:33:35.182 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:33:35.182 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:33:35.183 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:33:35.183 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 0.9046ms
+2020-05-29 02:33:35.183 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:33:35.183 -03:00 [INF] HTTP GET /Applicant responded 200 in 1.2102 ms
+2020-05-29 02:33:35.183 -03:00 [INF] Request finished in 1.4041ms 200 application/json; charset=utf-8
+2020-05-29 02:33:41.406 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:33:41.407 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:33:41.409 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:33:41.409 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:33:41.409 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:33:41.409 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:33:41.409 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 0.6672ms
+2020-05-29 02:33:41.409 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:33:41.409 -03:00 [INF] HTTP GET /Applicant responded 200 in 2.8684 ms
+2020-05-29 02:33:41.409 -03:00 [INF] Request finished in 3.7092ms 200 application/json; charset=utf-8
+2020-05-29 02:33:48.733 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:33:48.733 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:33:48.733 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:33:48.734 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:33:48.734 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:33:48.734 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:33:48.734 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 0.9358ms
+2020-05-29 02:33:48.735 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:33:48.735 -03:00 [INF] HTTP GET /Applicant responded 200 in 1.2051 ms
+2020-05-29 02:33:48.735 -03:00 [INF] Request finished in 1.4214ms 200 application/json; charset=utf-8
+2020-05-29 02:33:58.333 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:33:58.333 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:33:58.333 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:33:58.333 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:33:58.334 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:33:58.335 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:33:58.335 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 1.7183ms
+2020-05-29 02:33:58.335 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:33:58.335 -03:00 [INF] HTTP GET /Applicant responded 200 in 2.1535 ms
+2020-05-29 02:33:58.335 -03:00 [INF] Request finished in 2.605ms 200 application/json; charset=utf-8
+2020-05-29 02:34:00.006 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:34:00.006 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:34:00.006 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:34:00.006 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:34:00.007 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:34:00.007 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:34:00.007 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 0.7545ms
+2020-05-29 02:34:00.007 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:34:00.007 -03:00 [INF] HTTP GET /Applicant responded 200 in 1.045 ms
+2020-05-29 02:34:00.007 -03:00 [INF] Request finished in 1.2097ms 200 application/json; charset=utf-8
+2020-05-29 02:34:01.073 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:34:01.073 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:34:01.073 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:34:01.073 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:34:01.074 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:34:01.074 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:34:01.074 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 1.0473ms
+2020-05-29 02:34:01.074 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:34:01.074 -03:00 [INF] HTTP GET /Applicant responded 200 in 1.3288 ms
+2020-05-29 02:34:01.075 -03:00 [INF] Request finished in 1.4693ms 200 application/json; charset=utf-8
+2020-05-29 02:34:30.133 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:34:30.133 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:34:30.133 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:34:30.133 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:34:30.139 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:34:30.139 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:34:30.139 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 5.8591ms
+2020-05-29 02:34:30.139 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:34:30.139 -03:00 [INF] HTTP GET /Applicant responded 200 in 6.5038 ms
+2020-05-29 02:34:30.140 -03:00 [INF] Request finished in 6.7538ms 200 application/json; charset=utf-8
+2020-05-29 02:35:39.240 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:35:39.240 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:35:39.240 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:35:39.240 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:35:39.265 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:35:39.266 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:35:39.266 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 25.9911ms
+2020-05-29 02:35:39.266 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:35:39.266 -03:00 [INF] HTTP GET /Applicant responded 200 in 26.255 ms
+2020-05-29 02:35:39.266 -03:00 [INF] Request finished in 26.4299ms 200 application/json; charset=utf-8
+2020-05-29 02:38:25.280 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:38:25.281 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:38:25.281 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:38:25.281 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:38:25.288 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:38:25.289 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:38:25.289 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 7.7387ms
+2020-05-29 02:38:25.289 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:38:25.290 -03:00 [INF] HTTP GET /Applicant responded 200 in 8.7486 ms
+2020-05-29 02:38:25.290 -03:00 [INF] Request finished in 9.888ms 200 application/json; charset=utf-8
+2020-05-29 02:39:40.211 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:39:40.212 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:39:40.212 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:39:40.212 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:39:40.216 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:39:40.216 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:39:40.216 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 4.0925ms
+2020-05-29 02:39:40.216 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:39:40.216 -03:00 [INF] HTTP GET /Applicant responded 200 in 4.9826 ms
+2020-05-29 02:39:40.217 -03:00 [INF] Request finished in 5.177ms 200 application/json; charset=utf-8
+2020-05-29 02:43:54.302 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:43:54.302 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:43:54.302 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:43:54.302 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:43:54.326 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:43:54.327 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:43:54.327 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 24.6825ms
+2020-05-29 02:43:54.327 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:43:54.327 -03:00 [INF] HTTP GET /Applicant responded 200 in 25.0596 ms
+2020-05-29 02:43:54.327 -03:00 [INF] Request finished in 25.2277ms 200 application/json; charset=utf-8
+2020-05-29 02:44:09.785 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:44:09.786 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:44:09.786 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:44:09.788 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:44:09.789 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:44:09.789 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:44:09.790 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 1.0215ms
+2020-05-29 02:44:09.790 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:44:09.790 -03:00 [INF] HTTP GET /Applicant responded 200 in 3.686 ms
+2020-05-29 02:44:09.790 -03:00 [INF] Request finished in 4.6064ms 200 application/json; charset=utf-8
+2020-05-29 02:44:30.732 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:44:30.732 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:44:30.733 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:44:30.733 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:44:30.761 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:44:30.762 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:44:30.762 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 28.9168ms
+2020-05-29 02:44:30.762 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:44:30.762 -03:00 [INF] HTTP GET /Applicant responded 200 in 29.999 ms
+2020-05-29 02:44:30.762 -03:00 [INF] Request finished in 30.4833ms 200 application/json; charset=utf-8
+2020-05-29 02:45:45.235 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:45:45.235 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:45:45.235 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:45:45.235 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:45:45.238 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:45:45.242 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:45:45.244 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 9.0257ms
+2020-05-29 02:45:45.244 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:45:45.245 -03:00 [INF] HTTP GET /Applicant responded 200 in 10.0413 ms
+2020-05-29 02:45:45.245 -03:00 [INF] Request finished in 10.2527ms 200 application/json; charset=utf-8
+2020-05-29 02:45:58.219 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:45:58.219 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:45:58.219 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:45:58.219 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:45:58.220 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:45:58.220 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:45:58.221 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 0.9983ms
+2020-05-29 02:45:58.221 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:45:58.221 -03:00 [INF] HTTP GET /Applicant responded 200 in 1.235 ms
+2020-05-29 02:45:58.221 -03:00 [INF] Request finished in 1.3621ms 200 application/json; charset=utf-8
+2020-05-29 02:46:29.244 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:46:29.245 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:46:29.245 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:46:29.245 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:46:29.270 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:46:29.270 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:46:29.270 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 24.9698ms
+2020-05-29 02:46:29.270 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:46:29.270 -03:00 [INF] HTTP GET /Applicant responded 200 in 25.7584 ms
+2020-05-29 02:46:29.271 -03:00 [INF] Request finished in 26.0587ms 200 application/json; charset=utf-8
+2020-05-29 02:47:30.196 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:47:30.196 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:47:30.196 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:47:30.197 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:47:30.200 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:47:30.200 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:47:30.201 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 3.3783ms
+2020-05-29 02:47:30.201 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:47:30.201 -03:00 [INF] HTTP GET /Applicant responded 200 in 4.3342 ms
+2020-05-29 02:47:30.201 -03:00 [INF] Request finished in 4.5848ms 200 application/json; charset=utf-8
+2020-05-29 02:49:08.220 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:49:08.220 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:49:08.220 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:49:08.220 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:49:08.221 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:49:08.221 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:49:08.223 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 2.2577ms
+2020-05-29 02:49:08.223 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:49:08.223 -03:00 [INF] HTTP GET /Applicant responded 200 in 2.5425 ms
+2020-05-29 02:49:08.223 -03:00 [INF] Request finished in 2.7166ms 200 application/json; charset=utf-8
+2020-05-29 02:50:00.204 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:50:00.205 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:50:00.205 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:00.205 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:50:00.208 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:50:00.209 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:50:00.209 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 3.9164ms
+2020-05-29 02:50:00.210 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:00.210 -03:00 [INF] HTTP GET /Applicant responded 200 in 5.0166 ms
+2020-05-29 02:50:00.210 -03:00 [INF] Request finished in 5.2488ms 200 application/json; charset=utf-8
+2020-05-29 02:50:21.209 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:50:21.209 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:50:21.209 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:21.210 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:50:21.215 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:50:21.217 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:50:21.220 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 10.0916ms
+2020-05-29 02:50:21.220 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:21.221 -03:00 [INF] HTTP GET /Applicant responded 200 in 10.5171 ms
+2020-05-29 02:50:21.221 -03:00 [INF] Request finished in 11.3044ms 200 application/json; charset=utf-8
+2020-05-29 02:50:46.967 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:50:46.967 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:50:46.968 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:46.968 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:50:46.993 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:50:46.994 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:50:46.995 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 26.5818ms
+2020-05-29 02:50:46.995 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:46.995 -03:00 [INF] HTTP GET /Applicant responded 200 in 27.9528 ms
+2020-05-29 02:50:46.995 -03:00 [INF] Request finished in 28.2834ms 200 application/json; charset=utf-8
+2020-05-29 02:50:51.387 -03:00 [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44345/Applicant  
+2020-05-29 02:50:51.388 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:50:51.388 -03:00 [INF] HTTP OPTIONS /Applicant responded 204 in 0.2557 ms
+2020-05-29 02:50:51.390 -03:00 [INF] Request finished in 2.8812ms 204 
+2020-05-29 02:50:51.391 -03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44345/Applicant application/json 254
+2020-05-29 02:50:51.391 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:50:51.391 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Post (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:51.391 -03:00 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto) on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:50:52.154 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:50:52.155 -03:00 [INF] Saved 1 entities to in-memory store.
+2020-05-29 02:50:52.156 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Int32'.
+2020-05-29 02:50:52.156 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Post (Hahn.ApplicationProcess.May2020.Web) in 764.7273ms
+2020-05-29 02:50:52.156 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Post (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:52.156 -03:00 [INF] HTTP POST /Applicant responded 201 in 764.9415 ms
+2020-05-29 02:50:52.156 -03:00 [INF] Request finished in 765.1202ms 201 application/json; charset=utf-8
+2020-05-29 02:50:53.409 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant  
+2020-05-29 02:50:53.409 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:50:53.409 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:53.410 -03:00 [INF] Route matched with {action = "List", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] List() on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:50:53.410 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:50:53.410 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto, Hahn.ApplicatonProcess.May2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-29 02:50:53.411 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web) in 1.2188ms
+2020-05-29 02:50:53.411 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.List (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:53.411 -03:00 [INF] HTTP GET /Applicant responded 200 in 1.6447 ms
+2020-05-29 02:50:53.411 -03:00 [INF] Request finished in 1.9399ms 200 application/json; charset=utf-8
+2020-05-29 02:50:54.970 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44345/Applicant/1  
+2020-05-29 02:50:54.970 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:50:54.970 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Get (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:54.970 -03:00 [INF] Route matched with {action = "Get", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto]] Get(Int32) on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:50:54.972 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:50:54.975 -03:00 [INF] Executing ObjectResult, writing value of type 'Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto'.
+2020-05-29 02:50:54.976 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Get (Hahn.ApplicationProcess.May2020.Web) in 5.6106ms
+2020-05-29 02:50:54.976 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Get (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:54.976 -03:00 [INF] HTTP GET /Applicant/1 responded 200 in 6.2599 ms
+2020-05-29 02:50:54.976 -03:00 [INF] Request finished in 6.6591ms 200 application/json; charset=utf-8
+2020-05-29 02:50:59.308 -03:00 [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44345/Applicant  
+2020-05-29 02:50:59.308 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:50:59.308 -03:00 [INF] HTTP OPTIONS /Applicant responded 204 in 0.081 ms
+2020-05-29 02:50:59.308 -03:00 [INF] Request finished in 0.356ms 204 
+2020-05-29 02:50:59.309 -03:00 [INF] Request starting HTTP/2.0 PUT https://localhost:44345/Applicant application/json 275
+2020-05-29 02:50:59.310 -03:00 [INF] CORS policy execution successful.
+2020-05-29 02:50:59.310 -03:00 [INF] Executing endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Put (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:59.314 -03:00 [INF] Route matched with {action = "Put", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto) on controller Hahn.ApplicationProcess.Application.Controllers.ApplicantController (Hahn.ApplicationProcess.May2020.Web).
+2020-05-29 02:50:59.322 -03:00 [INF] Entity Framework Core 3.1.4 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantDB 
+2020-05-29 02:50:59.718 -03:00 [INF] Saved 1 entities to in-memory store.
+2020-05-29 02:50:59.718 -03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2020-05-29 02:50:59.718 -03:00 [INF] Executed action Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Put (Hahn.ApplicationProcess.May2020.Web) in 403.7338ms
+2020-05-29 02:50:59.718 -03:00 [INF] Executed endpoint 'Hahn.ApplicationProcess.Application.Controllers.ApplicantController.Put (Hahn.ApplicationProcess.May2020.Web)'
+2020-05-29 02:50:59.718 -03:00 [INF] HTTP PUT /Applicant responded 204 in 408.2855 ms
+2020-05-29 02:50:59.718 -03:00 [INF] Request finished in 408.4961ms 204 
