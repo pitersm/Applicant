@@ -1,1 +1,0 @@
-export const baseUrl = 'localhost:44345/';
