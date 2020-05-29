@@ -19,12 +19,24 @@ namespace Hahn.ApplicationProcess.Application.Controllers
             _applicantService = applicantService;
         }
 
+
+        /// <summary>
+        /// Gets a list of applicants ordered by name
+        /// </summary>
+        [HttpGet]
+        public async Task<ActionResult<ApplicantDto>> List()
+        {
+           var value = await _applicantService.ListApplicants();
+
+           return Ok(value);
+        }
+
         /// <summary>
         /// Gets a specific applicant by unique id
         /// </summary>
         /// <param name="id" example="1">The applicant id</param>
         [HttpGet("{id}")]
-        public async Task<ActionResult<Applicant>> Get(int id)
+        public async Task<ActionResult<ApplicantDto>> Get(int id)
         {
             var value = await _applicantService.GetApplicant(id);
 
@@ -77,7 +89,7 @@ namespace Hahn.ApplicationProcess.Application.Controllers
         /// Deletes an applicant record in the database
         /// </summary>
         /// <param name="id" example="1">The applicant id</param>
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             try

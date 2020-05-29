@@ -4,6 +4,10 @@ namespace Hahn.ApplicatonProcess.May2020.Domain.Dto
 {
     public class ApplicantDto
     {
+        /// <summary>
+        /// The applicant's Id
+        /// </summary>
+        /// <example>1</example>
         public int Id { get; set; }
         /// <summary>
         /// The applicant's name

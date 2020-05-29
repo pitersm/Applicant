@@ -58,5 +58,9 @@ namespace Hahn.ApplicationProcess.May2020.Data.Repository
             var applicant = await _context.Applicants.FindAsync(id);
             return applicant;
         }
+        public IQueryable<Applicant> ListApplicants()
+        {
+            return _context.Applicants.AsQueryable().OrderBy(a => a.Name);
+        }
     }
 }

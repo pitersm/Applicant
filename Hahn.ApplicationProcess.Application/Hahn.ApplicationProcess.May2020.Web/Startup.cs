@@ -64,7 +64,7 @@ namespace Hahn.ApplicationProcess.Application
             services.AddScoped<ApplicantRepository, ApplicantRepository>();
             services.AddScoped<IApplicantService, ApplicantService>();
             services.AddScoped<ApplicantValidator, ApplicantValidator>();
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -84,6 +84,8 @@ namespace Hahn.ApplicationProcess.Application
 
             app.UseAuthorization();
 
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
@@ -95,8 +97,6 @@ namespace Hahn.ApplicationProcess.Application
                 c.SwaggerEndpoint("/swagger/v1/swagger.json",
                     "Applicant API");
             });
-
-            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
         }
     }
 }

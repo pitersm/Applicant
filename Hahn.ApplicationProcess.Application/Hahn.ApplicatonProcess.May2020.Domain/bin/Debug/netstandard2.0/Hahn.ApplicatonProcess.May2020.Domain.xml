@@ -4,6 +4,12 @@
         <name>Hahn.ApplicatonProcess.May2020.Domain</name>
     </assembly>
     <members>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto.Id">
+            <summary>
+            The applicant's Id
+            </summary>
+            <example>1</example>
+        </member>
         <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Dto.ApplicantDto.Name">
             <summary>
             The applicant's name

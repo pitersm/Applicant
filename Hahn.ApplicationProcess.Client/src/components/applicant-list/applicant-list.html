@@ -1,0 +1,26 @@
+<template>
+    <br>
+    <div class="card">
+        <div class="card-header text-white bg-primary">
+            List of Applicants
+        </div>
+        <div class="card-body">
+            <p if.bind="applicants.length > 0">Click an applicant on the list to see the related data.</p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="list-group">
+                        <a repeat.for="applicant of applicants" 
+                            style="cursor: pointer;"
+                            class="list-group-item list-group-item-action"
+                            click.delegate="selectApplicant(applicant)">
+                            ${applicant.name} ${applicant.familyName}
+                        </a>
+                    </ul>
+                    <div if.bind="applicants.length === 0">There are currently no applicants on the database.
+                        <a href="javascript:void(0)" route-href="route: new">Add an applicant.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

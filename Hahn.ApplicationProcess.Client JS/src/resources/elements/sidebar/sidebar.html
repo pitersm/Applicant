@@ -1,0 +1,9 @@
+<template bindable="activeRoute">
+    <require from="./sidebar.css"></require>
+
+    <div class="sidebar">
+        <a class="${activeRoute == 'home' ? 'active' : ''}" route-href="route: home">Home</a>
+        <a class="${activeRoute == 'new' ? 'active' : ''}" route-href="route: new">New Applicant</a>
+        <a class="${activeRoute == 'list' ? 'active' : ''}" route-href="route: list">Applicant List</a>
+    </div>
+</template>
